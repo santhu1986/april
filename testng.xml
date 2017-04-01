@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test name="TNG">
+    <classes>
+      <class name="com.ebank.master.Branch"/>
+      <class name="com.ebank.master.role"/>
+    </classes>
+  </test> <!-- TNG -->
+</suite> <!-- Suite -->

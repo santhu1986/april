@@ -75,6 +75,8 @@ public String Role(String RN,String RT)
 	driver.findElement(By.id("lstRtypeN")).click();
 	driver.findElement(By.id("lstRtypeN")).sendKeys(RT);
 	driver.findElement(By.xpath(".//*[@id='btninsert']")).click();
+
+	
 	Sleeper.sleepTightInSeconds(2);
 	String Actval=driver.switchTo().alert().getText();
 	
